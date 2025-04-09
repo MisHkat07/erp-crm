@@ -41,10 +41,6 @@ let routes = {
       element: <Logout />,
     },
     {
-      path: '/about',
-      element: <About />,
-    },
-    {
       path: '/',
       element: <Dashboard />,
     },
