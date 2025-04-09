@@ -12,8 +12,6 @@ import { FILE_BASE_URL } from '@/config/serverApiConfig';
 
 import useLanguage from '@/locale/useLanguage';
 
-import UpgradeButton from './UpgradeButton';
-
 export default function HeaderContent() {
   const currentAdmin = useSelector(selectCurrentAdmin);
   const { Header } = Layout;
@@ -121,9 +119,6 @@ export default function HeaderContent() {
         {/* </Badge> */}
       </Dropdown>
 
-      {/* <AppsButton /> */}
-
-      <UpgradeButton />
     </Header>
   );
 }

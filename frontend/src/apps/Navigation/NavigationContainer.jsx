@@ -151,9 +151,9 @@ function Sidebar({ collapsible, isMobile = false }) {
           cursor: 'pointer',
         }}
       >
-        <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} />
+        {/* <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} /> */}
 
-        {!showLogoApp && (
+        {/* {!showLogoApp && (
           <img
             src={logoText}
             alt="Logo"
@@ -163,7 +163,7 @@ function Sidebar({ collapsible, isMobile = false }) {
               height: '38px',
             }}
           />
-        )}
+        )} */}
       </div>
       <Menu
         items={items}
